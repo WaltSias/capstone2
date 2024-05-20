@@ -19,7 +19,6 @@ It contains a page for Tennis stats:
 
 - [x] Make a Branch
 - [x] Html
-- [x] CSS
 - [x] JS
 - [x] Bootstrap
 
@@ -31,7 +30,7 @@ Contact
 
 **Author: Walter Sias, walt.sias@gmail.com**
 
-**Acknowledgements**: Added html files, bootstrap CDN, also custom boostrap from w3 schools, and I used float and responsive utlities.
+**Acknowledgements**: Added html files, bootstrap CDN, with Api from RapidApi.
 
 - [Bootstrap](https://getbootstrap.com/)
 - [w3schoools CSS](https://www.w3schools.com/cssref)

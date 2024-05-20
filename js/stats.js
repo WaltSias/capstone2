@@ -11,7 +11,7 @@ document
 
     const fetch = require('node-fetch');
 
-const url = 'https://tennis-live-data.p.rapidapi.com/rankings/ATP';
+const apiUrl = 'https://tennis-live-data.p.rapidapi.com/rankings/ATP';
 const options = {
   method: 'GET',
   headers: {
@@ -38,10 +38,9 @@ const options = {
                   <h2>Player Information</h2>
                   <p>country: ${player.country}</p>
                   <p>Name: ${player.first_name} ${player.full_name}</p>
-                  <p>ID: ${player.id}</p>
+                  <p>ranking: ${player.ranking}</p>
                   <p>Last Name: ${player.last_name}</p>
-                  
-              `;
+                      `;
           playerInfoDiv.innerHTML = playerHtml;
         } else {
           playerInfoDiv.innerHTML = '<p>Player not found</p>';
